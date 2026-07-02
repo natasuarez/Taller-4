@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Luxury Cars es una empresa especializada en la venta de vehículos deportivos, sedanes y SUV de lujo. Descubre nuestro catálogo y encuentra el automóvil ideal.">
+    <meta name="keywords"
+        content="Luxury Cars, BMW, Mercedes-Benz, Ferrari, Porsche, venta de autos, vehículos de lujo">
+
+    <meta name="author" content="Natalia Peña">
+
+    <title>Luxury Cars</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+    <!-- ===================== NAVBAR ===================== -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+
+                <i class="bi bi-car-front-fill text-warning"></i>
+
+                Luxury Cars
+
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Abrir menú de navegación">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+
+                        <a href="index.html" class="nav-link active">
+
+                            <i class="bi bi-house-fill"></i>
+
+                            Inicio
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a href="app/catalogo.html" class="nav-link">
+
+                            <i class="bi bi-car-front"></i>
+
+                            Catálogo
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a href="#beneficios" class="nav-link">
+
+                            <i class="bi bi-award"></i>
+
+                            Nosotros
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a href="#contacto" class="nav-link">
+
+                            <i class="bi bi-envelope-fill"></i>
+
+                            Contacto
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item ms-lg-3">
+
+                        <a href="app/login.html" class="btn btn-warning">
+
+                            <i class="bi bi-box-arrow-in-right"></i>
+
+                            Ingresar
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Espacio para navbar -->
+
+    <div class="mt-5 pt-4"></div>
+    <!-- ===================== CAROUSEL ===================== -->
+
+    <div id="carouselLuxury" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <!-- Indicadores -->
+
+        <div class="carousel-indicators">
+
+            <button type="button" data-bs-target="#carouselLuxury" data-bs-slide-to="0" class="active" aria-label="Deslizar a la primera diapositiva"></button>
+
+            <button type="button" data-bs-target="#carouselLuxury" data-bs-slide-to="1" aria-label="Deslizar a la segunda diapositiva"></button>
+
+            <button type="button" data-bs-target="#carouselLuxury" data-bs-slide-to="2" aria-label="Deslizar a la tercera diapositiva"></button>
+
+        </div>
+
+        <!-- Imágenes -->
+
+        <div class="carousel-inner">
+
+            <!-- BMW -->
+
+            <div class="carousel-item active">
+
+                <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1600&q=80"
+                    class="d-block w-100" style="height: 650px; object-fit: cover;" alt="BMW M4 Competition">
+
+                <div class="carousel-caption text-start mb-5">
+
+                    <h1 class="display-4 fw-bold">
+
+                        BMW M4 Competition
+
+                    </h1>
+
+                    <p class="lead">
+
+                        Potencia, elegancia y tecnología en un solo vehículo.
+
+                    </p>
+
+                    <a href="app/catalogo.html" class="btn btn-warning btn-lg">
+
+                        <i class="bi bi-car-front-fill"></i>
+
+                        Ver catálogo
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Mercedes -->
+
+            <div class="carousel-item">
+
+                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=80"
+                    class="d-block w-100" style="height:650px; object-fit:cover;" alt="Mercedes Benz">
+
+                <div class="carousel-caption">
+
+                    <h1 class="display-4 fw-bold">
+
+                        Mercedes AMG GT
+
+                    </h1>
+
+                    <p class="lead">
+
+                        Lujo y rendimiento para quienes buscan la excelencia.
+
+                    </p>
+
+                    <a href="app/catalogo.html" class="btn btn-warning btn-lg">
+
+                        <i class="bi bi-lightning-charge-fill"></i>
+
+                        Descubrir
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Ferrari -->
+
+            <div class="carousel-item">
+
+                <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1600&q=80"
+                    class="d-block w-100" style="height:650px; object-fit:cover;" alt="Ferrari SF90">
+
+                <div class="carousel-caption text-end mb-5">
+
+                    <h1 class="display-4 fw-bold">
+
+                        Ferrari SF90
+
+                    </h1>
+
+                    <p class="lead">
+
+                        La máxima expresión de la velocidad y el diseño italiano.
+
+                    </p>
+
+                    <a href="app/catalogo.html" class="btn btn-warning btn-lg"
+                        aria-label="Ver el catálogo completo de vehículos Luxury Cars">
+
+                        <i class="bi bi-arrow-right-circle-fill"></i>
+
+                        Ver catálogo de vehículos
+
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Controles -->
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselLuxury" data-bs-slide="prev" aria-label="Deslizar a la diapositiva anterior">
+
+            <span class="carousel-control-prev-icon"></span>
+
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselLuxury" data-bs-slide="next" aria-label="Deslizar a la diapositiva siguiente">
+
+            <span class="carousel-control-next-icon"></span>
+
+        </button>
+
+    </div>
+
+    <!-- ===================== BIENVENIDA ===================== -->
+
+    <section class="container py-5">
+
+        <div class="row justify-content-center text-center">
+
+            <div class="col-lg-10">
+
+                <h2 class="display-5 fw-bold">
+
+                    Bienvenido a Luxury Cars
+
+                </h2>
+
+                <p class="lead text-secondary">
+
+                    Somos una empresa especializada en la venta de vehículos deportivos,
+                    sedanes premium y SUV de lujo. Trabajamos con las marcas más
+                    reconocidas del mundo para ofrecer calidad, seguridad y la mejor
+                    experiencia de compra.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- ===================== FOOTER ===================== -->
+
+    <footer id="contacto" class="bg-dark text-light pt-5 pb-3">
+
+        <div class="container">
+
+            <div class="row">
+
+                <!-- Empresa -->
+
+                <div class="col-md-4 mb-4">
+
+                    <h1 class="fw-bold">
+
+                        <i class="bi bi-car-front-fill text-warning"></i>
+
+                        Luxury Cars
+
+                    </h1>
+
+                    <p>
+
+                        Somos una empresa especializada en la venta de vehículos deportivos,
+                        SUV y sedanes de lujo. Nuestro compromiso es ofrecer calidad,
+                        confianza y la mejor experiencia de compra.
+
+                    </p>
+
+                </div>
+
+                <!-- Enlaces -->
+
+                <div class="col-md-4 mb-4">
+
+                    <h2 class="fw-bold">
+
+                        Enlaces rápidos
+
+                    </h2>
+
+                    <ul class="list-unstyled">
+
+                        <li class="mb-2">
+                            <a href="index.html" class="text-decoration-none text-light">
+                                <i class="bi bi-house-door-fill"></i>
+                                Inicio
+                            </a>
+                        </li>
+
+                        <li class="mb-2">
+                            <a href="app/catalogo.html" class="text-decoration-none text-light">
+                                <i class="bi bi-car-front-fill"></i>
+                                Catálogo
+                            </a>
+                        </li>
+
+                        <li class="mb-2">
+                            <a href="app/login.html" class="text-decoration-none text-light">
+                                <i class="bi bi-box-arrow-in-right"></i>
+                                Iniciar sesión
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="app/registro.html" class="text-decoration-none text-light">
+                                <i class="bi bi-person-plus-fill"></i>
+                                Registrarse
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Contacto -->
+
+                <div class="col-md-4 mb-4">
+
+                    <h2 class="fw-bold">
+
+                        Contáctanos
+
+                    </h2>
+
+                    <p>
+
+                        <i class="bi bi-geo-alt-fill text-warning"></i>
+
+                        Medellín, Colombia
+
+                    </p>
+
+                    <p>
+
+                        <i class="bi bi-envelope-fill text-warning"></i>
+
+                        contacto@luxurycars.com
+
+                    </p>
+
+                    <p>
+
+                        <i class="bi bi-telephone-fill text-warning"></i>
+
+                        +57 3216817598
+
+                    </p>
+
+                    <div class="fs-4">
+
+                        <i class="bi bi-facebook me-3"></i>
+
+                        <i class="bi bi-instagram me-3"></i>
+
+                        <i class="bi bi-whatsapp me-3"></i>
+
+                        <i class="bi bi-youtube"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="text-center">
+
+                <p class="mb-0">
+
+                    © 2026 Luxury Cars. Todos los derechos reservados.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

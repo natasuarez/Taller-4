@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Luxury Cars es una empresa especializada en la venta de vehículos deportivos, sedanes y SUV de lujo. Descubre nuestro catálogo y encuentra el automóvil ideal.">
+    <meta name="keywords"
+        content="Luxury Cars, BMW, Mercedes-Benz, Ferrari, Porsche, venta de autos, vehículos de lujo">
+
+    <meta name="author" content="Natalia Peña">
+
+    <title>Mi Cuenta | Luxury Cars</title>
+
+    <!-- Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<body class="bg-light">
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="../index.html">
+
+                <i class="bi bi-car-front-fill text-warning"></i>
+
+                Luxury Cars
+
+            </a>
+
+            <a href="login.html" class="btn btn-outline-light">
+
+                <i class="bi bi-box-arrow-right"></i>
+
+                Cerrar sesión
+
+            </a>
+
+        </div>
+
+    </nav>
+
+    <div class="container py-5">
+
+        <!-- PERFIL -->
+
+        <div class="card shadow border-0 mb-4">
+
+            <div class="card-body">
+
+                <div class="row align-items-center">
+
+                    <div class="col-md-3 text-center">
+
+                        <img src="https://i.pravatar.cc/200?img=12"
+                            class="rounded-circle img-fluid border"
+                            alt="Usuario">
+
+                    </div>
+
+                    <div class="col-md-9">
+
+                        <h2 class="fw-bold">
+
+                            Natalia Peña
+
+                        </h2>
+
+                        <p class="text-secondary mb-1">
+
+                            <i class="bi bi-envelope-fill"></i>
+
+                            natalia@email.com
+
+                        </p>
+
+                        <p class="text-secondary mb-1">
+
+                            <i class="bi bi-telephone-fill"></i>
+
+                            +57 300 123 4567
+
+                        </p>
+
+                        <p class="text-secondary">
+
+                            <i class="bi bi-geo-alt-fill"></i>
+
+                            Medellín - Colombia
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- ALERTA -->
+
+        <div class="alert alert-warning alert-dismissible fade show">
+
+            <i class="bi bi-exclamation-triangle-fill"></i>
+
+            Recuerda completar la documentación para finalizar la compra de tu vehículo.
+
+            <button
+                class="btn-close"
+                data-bs-dismiss="alert">
+
+            </button>
+
+        </div>
+
+        <!-- TABS -->
+
+        <ul class="nav nav-tabs mb-4">
+
+            <li class="nav-item">
+
+                <button
+                    class="nav-link active"
+                    data-bs-toggle="tab"
+                    data-bs-target="#compras">
+
+                    Compras Activas
+
+                </button>
+
+            </li>
+
+            <li class="nav-item">
+
+                <button
+                    class="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#historial">
+
+                    Historial
+
+                </button>
+
+            </li>
+
+        </ul>
+
+        <div class="tab-content">
+
+            <!-- Compras -->
+
+            <div class="tab-pane fade show active" id="compras">
+
+                <div class="row g-4">
+
+                    <div class="col-md-6">
+
+                        <div class="card shadow">
+
+                            <div class="card-body">
+
+                                <h4>
+
+                                    BMW M4 Competition
+
+                                </h4>
+
+                                <p>
+
+                                    Estado:
+
+                                    <span class="badge bg-success">
+
+                                        En proceso de entrega
+
+                                    </span>
+
+                                </p>
+
+                                <p>
+
+                                    Color: Negro
+
+                                </p>
+
+                                <p>
+
+                                    Precio: $420.000.000
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6">
+
+                        <div class="card shadow">
+
+                            <div class="card-body">
+
+                                <h4>
+
+                                    Mercedes AMG GT
+
+                                </h4>
+
+                                <p>
+
+                                    Estado:
+
+                                    <span class="badge bg-warning text-dark">
+
+                                        Reservado
+
+                                    </span>
+
+                                </p>
+
+                                <p>
+
+                                    Color: Blanco
+
+                                </p>
+
+                                <p>
+
+                                    Precio: $510.000.000
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Historial -->
+
+            <div class="tab-pane fade" id="historial">
+
+                <div class="card shadow">
+
+                    <div class="card-body">
+
+                        <table class="table table-striped table-hover">
+
+                            <thead class="table-dark">
+
+                                <tr>
+
+                                    <th>Vehículo</th>
+
+                                    <th>Fecha</th>
+
+                                    <th>Estado</th>
+
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+
+                                    <td>Audi RS7</td>
+
+                                    <td>15/03/2026</td>
+
+                                    <td>
+
+                                        <span class="badge bg-success">
+
+                                            Entregado
+
+                                        </span>
+
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+
+                                    <td>BMW X6</td>
+
+                                    <td>21/11/2025</td>
+
+                                    <td>
+
+                                        <span class="badge bg-primary">
+
+                                            Finalizado
+
+                                        </span>
+
+                                    </td>
+
+                                </tr>
+
+                                <tr>
+
+                                    <td>Mercedes GLE</td>
+
+                                    <td>05/08/2025</td>
+
+                                    <td>
+
+                                        <span class="badge bg-secondary">
+
+                                            Completado
+
+                                        </span>
+
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
