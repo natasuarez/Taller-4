@@ -20,8 +20,7 @@
 
     <!-- Bootstrap Icons -->
 
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
 </head>
 
@@ -29,223 +28,70 @@
 
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow" role="navigation"
+        aria-label="Barra de navegación principal">
         <div class="container">
-
-            <a class="navbar-brand fw-bold" href="../index.html">
-
-                <i class="bi bi-car-front-fill text-warning"></i>
-
+            <a class="navbar-brand fw-bold" href="../index.html" aria-label="Ir a inicio">
+                <i class="bi bi-car-front-fill text-warning" aria-hidden="true"></i>
                 Luxury Cars
-
             </a>
-
-            <a href="login.html" class="btn btn-outline-light">
-
-                <i class="bi bi-box-arrow-right"></i>
-
+            <a href="login.html" class="btn btn-outline-light" aria-label="Cerrar sesión">
+                <i class="bi bi-box-arrow-right" aria-hidden="true"></i>
                 Cerrar sesión
-
             </a>
-
         </div>
-
     </nav>
 
-    <div class="container py-5">
+    <main class="container py-5">
 
-        <!-- PERFIL -->
+        <div class="container py-5">
 
-        <div class="card shadow border-0 mb-4">
+            <!-- PERFIL -->
 
-            <div class="card-body">
+            <div class="card shadow border-0 mb-4">
 
-                <div class="row align-items-center">
+                <div class="card-body">
 
-                    <div class="col-md-3 text-center">
+                    <div class="row align-items-center">
 
-                        <img src="https://i.pravatar.cc/200?img=12"
-                            class="rounded-circle img-fluid border"
-                            alt="Usuario">
+                        <div class="col-md-3 text-center">
 
-                    </div>
-
-                    <div class="col-md-9">
-
-                        <h2 class="fw-bold">
-
-                            Natalia Peña
-
-                        </h2>
-
-                        <p class="text-secondary mb-1">
-
-                            <i class="bi bi-envelope-fill"></i>
-
-                            natalia@email.com
-
-                        </p>
-
-                        <p class="text-secondary mb-1">
-
-                            <i class="bi bi-telephone-fill"></i>
-
-                            +57 300 123 4567
-
-                        </p>
-
-                        <p class="text-secondary">
-
-                            <i class="bi bi-geo-alt-fill"></i>
-
-                            Medellín - Colombia
-
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- ALERTA -->
-
-        <div class="alert alert-warning alert-dismissible fade show">
-
-            <i class="bi bi-exclamation-triangle-fill"></i>
-
-            Recuerda completar la documentación para finalizar la compra de tu vehículo.
-
-            <button
-                class="btn-close"
-                data-bs-dismiss="alert">
-
-            </button>
-
-        </div>
-
-        <!-- TABS -->
-
-        <ul class="nav nav-tabs mb-4">
-
-            <li class="nav-item">
-
-                <button
-                    class="nav-link active"
-                    data-bs-toggle="tab"
-                    data-bs-target="#compras">
-
-                    Compras Activas
-
-                </button>
-
-            </li>
-
-            <li class="nav-item">
-
-                <button
-                    class="nav-link"
-                    data-bs-toggle="tab"
-                    data-bs-target="#historial">
-
-                    Historial
-
-                </button>
-
-            </li>
-
-        </ul>
-
-        <div class="tab-content">
-
-            <!-- Compras -->
-
-            <div class="tab-pane fade show active" id="compras">
-
-                <div class="row g-4">
-
-                    <div class="col-md-6">
-
-                        <div class="card shadow">
-
-                            <div class="card-body">
-
-                                <h4>
-
-                                    BMW M4 Competition
-
-                                </h4>
-
-                                <p>
-
-                                    Estado:
-
-                                    <span class="badge bg-success">
-
-                                        En proceso de entrega
-
-                                    </span>
-
-                                </p>
-
-                                <p>
-
-                                    Color: Negro
-
-                                </p>
-
-                                <p>
-
-                                    Precio: $420.000.000
-
-                                </p>
-
-                            </div>
+                            <img src="https://i.pravatar.cc/200?img=12" class="rounded-circle img-fluid border"
+                                alt="Usuario">
 
                         </div>
 
-                    </div>
+                        <div class="col-md-9">
 
-                    <div class="col-md-6">
+                            <h1 class="fw-bold">
 
-                        <div class="card shadow">
+                                Natalia Peña
 
-                            <div class="card-body">
+                            </h1>
 
-                                <h4>
+                            <p class="text-secondary mb-1">
 
-                                    Mercedes AMG GT
+                                <i class="bi bi-envelope-fill"></i>
 
-                                </h4>
+                                natalia@email.com
 
-                                <p>
+                            </p>
 
-                                    Estado:
+                            <p class="text-secondary mb-1">
 
-                                    <span class="badge bg-warning text-dark">
+                                <i class="bi bi-telephone-fill"></i>
 
-                                        Reservado
+                                +57 300 123 4567
 
-                                    </span>
+                            </p>
 
-                                </p>
+                            <p class="text-secondary">
 
-                                <p>
+                                <i class="bi bi-geo-alt-fill"></i>
 
-                                    Color: Blanco
+                                Medellín - Colombia
 
-                                </p>
-
-                                <p>
-
-                                    Precio: $510.000.000
-
-                                </p>
-
-                            </div>
+                            </p>
 
                         </div>
 
@@ -255,89 +101,227 @@
 
             </div>
 
-            <!-- Historial -->
+            <!-- ALERTA -->
 
-            <div class="tab-pane fade" id="historial">
+            <div class="alert alert-warning alert-dismissible fade show">
 
-                <div class="card shadow">
+                <i class="bi bi-exclamation-triangle-fill"></i>
 
-                    <div class="card-body">
+                Recuerda completar la documentación para finalizar la compra de tu vehículo.
 
-                        <table class="table table-striped table-hover">
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
 
-                            <thead class="table-dark">
+                </button>
 
-                                <tr>
+            </div>
 
-                                    <th>Vehículo</th>
+            <!-- TABS -->
 
-                                    <th>Fecha</th>
+            <ul class="nav nav-tabs mb-4">
 
-                                    <th>Estado</th>
+                <li class="nav-item">
 
-                                </tr>
+                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#compras" aria-label="Compras">
 
-                            </thead>
+                        Compras Activas
 
-                            <tbody>
+                    </button>
 
-                                <tr>
+                </li>
 
-                                    <td>Audi RS7</td>
+                <li class="nav-item">
 
-                                    <td>15/03/2026</td>
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#historial"
+                        aria-label="Historial">
 
-                                    <td>
+                        Historial
+
+                    </button>
+
+                </li>
+
+            </ul>
+
+            <div class="tab-content">
+
+                <!-- Compras -->
+
+                <div class="tab-pane fade show active" id="compras">
+
+                    <div class="row g-4">
+
+                        <div class="col-md-6">
+
+                            <div class="card shadow">
+
+                                <div class="card-body">
+
+                                    <h2>
+
+                                        BMW M4 Competition
+
+                                    </h2>
+
+                                    <p>
+
+                                        Estado:
 
                                         <span class="badge bg-success">
 
-                                            Entregado
+                                            En proceso de entrega
 
                                         </span>
 
-                                    </td>
+                                    </p>
 
-                                </tr>
+                                    <p>
 
-                                <tr>
+                                        Color: Negro
 
-                                    <td>BMW X6</td>
+                                    </p>
 
-                                    <td>21/11/2025</td>
+                                    <p>
 
-                                    <td>
+                                        Precio: $420.000.000
 
-                                        <span class="badge bg-primary">
+                                    </p>
 
-                                            Finalizado
+                                </div>
 
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <div class="card shadow">
+
+                                <div class="card-body">
+
+                                    <h2>
+
+                                        Mercedes AMG GT
+
+                                    </h2>
+
+                                    <p>
+
+                                        Estado:
+
+                                        <span class="badge bg-warning text-dark" style="color:#000; font-weight:bold;">
+                                            Reservado
                                         </span>
 
-                                    </td>
 
-                                </tr>
+                                    </p>
 
-                                <tr>
+                                    <p>
 
-                                    <td>Mercedes GLE</td>
+                                        Color: Blanco
 
-                                    <td>05/08/2025</td>
+                                    </p>
 
-                                    <td>
+                                    <p>
 
-                                        <span class="badge bg-secondary">
+                                        Precio: $510.000.000
 
-                                            Completado
+                                    </p>
 
-                                        </span>
+                                </div>
 
-                                    </td>
+                            </div>
 
-                                </tr>
+                        </div>
 
-                            </tbody>
+                    </div>
 
-                        </table>
+                </div>
+
+                <!-- Historial -->
+
+                <div class="tab-pane fade" id="historial">
+
+                    <div class="card shadow">
+
+                        <div class="card-body">
+
+                            <table class="table table-striped table-hover">
+
+                                <thead class="table-dark">
+
+                                    <tr>
+
+                                        <th>Vehículo</th>
+
+                                        <th>Fecha</th>
+
+                                        <th>Estado</th>
+
+                                    </tr>
+
+                                </thead>
+
+                                <tbody>
+
+                                    <tr>
+
+                                        <td>Audi RS7</td>
+
+                                        <td>15/03/2026</td>
+
+                                        <td>
+
+                                            <span class="badge bg-success">
+
+                                                Entregado
+
+                                            </span>
+
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>BMW X6</td>
+
+                                        <td>21/11/2025</td>
+
+                                        <td>
+
+                                            <span class="badge bg-primary">
+
+                                                Finalizado
+
+                                            </span>
+
+                                        </td>
+
+                                    </tr>
+
+                                    <tr>
+
+                                        <td>Mercedes GLE</td>
+
+                                        <td>05/08/2025</td>
+
+                                        <td>
+
+                                            <span class="badge bg-secondary">
+
+                                                Completado
+
+                                            </span>
+
+                                        </td>
+
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+
+                        </div>
 
                     </div>
 
@@ -347,9 +331,8 @@
 
         </div>
 
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    </main>
 
 </body>
 
